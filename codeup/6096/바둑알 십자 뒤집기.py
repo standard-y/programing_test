@@ -19,7 +19,7 @@ for i in range(0, use):
     for j in range(19):
         lis[y-1][j] = int(not bool(lis[y-1][j]))
         for k in range(19):
-          lis[k][x-1] = int(not bool(lis[k][x-1]))
+            lis[k][x-1] = int(not bool(lis[k][x-1]))
 
 for i in range(19):
     for j in range(19):
